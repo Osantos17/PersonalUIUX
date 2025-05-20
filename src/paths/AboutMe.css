@@ -66,8 +66,12 @@ h6 {
 @media (max-width: 768px) {
 
   .aboutMeBackground {
-    height: 50vh;
+    height: 20vh;
     overflow-y: hidden;
+  }
+
+  .aboutMe{
+    height: 20vh;
   }
 
   .profileContainer {

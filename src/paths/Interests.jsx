@@ -51,11 +51,12 @@ export function Interests() {
         <MT2Content>
           <div className="imagesContainer">
             {/* <h3 className="imgCategory">MOFFETT TOWERS</h3> */}
-            <img className="images" src="/assets/MT2/MT2-Cover.png" alt="Cover" />
-            <img className="images" src="/assets/MT2/MT2-Site.png" alt="Site" />
-            <img className="images" src="/assets/MT2/MT2-PSA.png" alt="PSA" />
-            <img className="images" src="/assets/MT2/MT2-B1.png" alt="B1" />
-            <img className="images" src="/assets/MT2/MT2-B3.jpeg" alt="B3" />
+            <img className="images" src="/assets/Woodworking/Crib.jpg" alt="Crib" />
+            <img className="images" src="/assets/Woodworking/Coop.jpg" alt="Coop" />
+            <img className="images" src="/assets/Woodworking/ToddleTower.jpg" alt="Tower" />
+            <img className="images" src="/assets/Woodworking/FirePit.jpg" alt="Fire" />
+            <img className="images" src="/assets/Woodworking/Wine.jpg" alt="Wind" />
+            <img className="images" src="/assets/Woodworking/Changing.jpg" alt="Change" />
           </div>
         </MT2Content>
       </div>  

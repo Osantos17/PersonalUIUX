@@ -16,6 +16,8 @@
 }
 
 
+
+
 /* ------ MOBILE STYLING ---------- */
 
 
@@ -23,13 +25,11 @@
 
   .logoContainerContent {
     height: 80vh;
-    overflow-y: hidden;
+    
   }
 
-  .campingLogo {
-    margin-bottom: 40px;
-    max-width: 180px;
-    max-height: 260px;
+  .phone{
+    padding-top: 40px;
   }
 
   .desktop {

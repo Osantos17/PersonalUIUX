@@ -4,7 +4,12 @@ import styled from "styled-components";
 const AboutMeBackground = styled.div`
   height: 85vh;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: 45vh;  
+  }
 `;
+
 
 export function AboutMe() {
   return (

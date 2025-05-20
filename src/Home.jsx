@@ -117,7 +117,7 @@ export function Home () {
               {clickControl.projects && (
               <div className="myapps">
                 <h6>A-FRAME</h6>
-                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based off of feedback I am currently adding a favorites page and a new swell and wind condition for greater forecast accuracy. 
+                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based off of feedback I am currently adding a favorites page and a new swell and wind condition for greater forecast accuracy. With plans to expand to Australia I have also added a conversion from imperial to metric units.
                 <br /><br />
                 FORECAST 
                 <br />
@@ -155,9 +155,9 @@ export function Home () {
                 <p> 
                   This site contains three 6-7 story buildings, a garage, and an amenities building. I took on the usual BIM tasks of setting up the site coordinates and coordinating that with consultants, BIM 360 set up, and selecting teams for each structure. The design of these buildings had a lot of curvature compared to typical buildings, so a lot of my time for this campus was spent ensuring accuracy and assisting the teams. A highlight of mine is creating an accurate 3D exterior pattern which consisted of 4 patterns, 3 colors on a curved surface; I managed to achieve this with a railing. 
                 </p>
-                <h6 className="projectName">MOFFETT TOWERS II</h6>
+                <h6 className="projectName">WOODWORKING</h6>
                 <p> 
-                  Five 8-story buildings, three garages, and a single amenities reside on this site. For this project, I coordinated the garages and a hotel that was unfortunately put on permanent hold at 95% CD. This was prior to BIM 360, so we used plug-ins to clean our models and coordinate and using Box as our folder structure to coordinate with our consultants. 
+                What brings me the greatest joy in woodworking is creating pieces that are both visually pleasing and highly functional. Every detail must be designed perfectly because once the first cut is made, there’s no turning back. Crafting my son’s crib from a walnut slab was by far my proudest—and most challenging—project, but I truly enjoy every build I take on. Some projects focus more on function than elaborate design, yet the careful planning and forethought required before making any cut remain the same for every piece.
                 </p>
               </div> )}
             </div>
