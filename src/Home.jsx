@@ -92,12 +92,32 @@ export function Home () {
                   Today, I’m transitioning into a career in UI/UX design, where I aim to blend architectural thinking, technical problem-solving, and collaborative skills to craft seamless and impactful digital experiences.
                 </p> 
 
+              <div className="mySitesContainer">
+              <h5 className="mySites">MY SITES</h5>
+              <div className="container text-start">
+                <div className="myLinks row">
+                  <div className="col-3 col-sm-3">
+                    <a href='https://github.com/Osantos17'><img className="connection git" src="/assets/git.png" alt="GitHub" /></a>
+                  </div>
+                  <div className="col-3 col-sm-3">
+                    <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="/assets/linkedin.png" alt="LinkedIn" /></a>
+                  </div>
+                  <div className="col-3 col-sm-3">
+                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
+                  </div>
+                </div> 
+              </div>
+              {showCopyMessage && (
+                  <div className="copiedAlert">Copied!</div>
+                )} 
+            </div>  
+
 
               </div>)}
               {clickControl.projects && (
               <div className="myapps">
                 <h6>A-FRAME</h6>
-                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. 
+                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based off of feedback I am currently adding a favorites page and a new swell and wind condition for greater forecast accuracy. 
                 <br /><br />
                 FORECAST 
                 <br />
@@ -141,25 +161,7 @@ export function Home () {
                 </p>
               </div> )}
             </div>
-            <div className="mySitesContainer">
-              <h5 className="mySites">MY SITES</h5>
-              <div className="container text-center">
-                <div className="myLinks row">
-                  <div className="col-3 col-sm-3">
-                    <a href='https://github.com/Osantos17'><img className="connection git" src="/assets/git.png" alt="GitHub" /></a>
-                  </div>
-                  <div className="col-3 col-sm-3">
-                    <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="/assets/linkedin.png" alt="LinkedIn" /></a>
-                  </div>
-                  <div className="col-3 col-md-3">
-                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
-                  </div>
-                </div> 
-              </div>
-              {showCopyMessage && (
-                  <div className="copiedAlert">Copied!</div>
-                )} 
-            </div>  
+           
           </div>
           <div className='rightBackground'>
               {clickControl.aboutMe && (
