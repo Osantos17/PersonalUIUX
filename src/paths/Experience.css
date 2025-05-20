@@ -1,0 +1,105 @@
+.experiencePage {
+  color: white;
+  margin: 0px 20px;
+  margin-top: 42px;
+}
+
+.resumeHeader {
+  font-family: "Lato-regular";
+}
+
+.horizontalLine {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 10px -4px;
+  margin-top: -5px;
+}
+
+.skillsBody {
+  margin: 20px 10px;
+  font-family: "Lato-thin";
+}
+
+.skillsLine {
+  margin-bottom: 5px;
+}
+
+.educationBody {
+  margin: 20px 10px;
+}
+
+.bodyHeaader {
+  font-family: "Lato-light";
+}
+
+.dates {
+  font-family: "Lato-thin";
+}
+
+.bodyHeaader2 {
+  font-family: "Lato-light";
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.drafter {
+  margin-top: 5px;
+}
+
+.details {
+  font-family: "Lato-thin";
+  color: white;
+  margin: 10px 0px;
+  width: 95%;
+  margin-left: 10px;
+}
+
+.desDetails {
+  font-family: "Lato-thin";
+  margin-left: 20px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.bootcamp {
+  font-family: "Lato-thin";
+}
+
+@media (max-width: 768px) {
+
+  .resumeHeader {
+    font-size: 16px;
+  }
+
+  .bodyHeaader {
+    font-size: 12px;
+  }
+
+  .skillsBody {
+    font-size: 12px;
+  }
+
+  .dates {
+    font-size: 12px;
+  }
+
+  .details {
+    font-size: 12px;
+  }
+
+  .desDetails {
+    font-size: 12px;
+  }
+
+  .employmentBody {
+    margin-bottom: 40px;
+  }
+
+  .skillsBody,
+  .dates,
+  .details,
+  .desDetails {
+    font-family: "Lato-light";
+  }
+
+}

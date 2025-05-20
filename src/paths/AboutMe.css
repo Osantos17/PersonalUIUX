@@ -1,0 +1,102 @@
+.aboutMe {
+  width: 100%;
+}
+
+.profileContainer {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.profilePic {
+  max-width: 550px;
+  max-height: 450px;
+}
+
+.name {
+  position: relative;
+  bottom: 370px;
+  left: 120px;
+  font-family: 'Lato-Regular', sans-serif;
+  width: auto;
+  font-size: 80px;
+  color: white;
+}
+
+.titles {
+  font-family: 'Lato-Light', sans-serif;
+  font-size: 28px;
+  color: white;
+  position: relative;
+  bottom: 100px;
+}
+
+.written {
+  font-family: 'Lato-Light', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-family: 'Lato-Light', sans-serif;
+}
+
+.logoContainer {
+  position: relative;
+  top: 100px;
+}
+
+.logo {
+  max-width: 90px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  margin: 0 10px;
+  opacity: 0.4;
+}
+
+.react {
+  width: 190px;
+  height: 160px;
+}
+
+/* ------ MOBILE STYLING ---------- */
+
+@media (max-width: 768px) {
+
+  .aboutMeBackground {
+    height: 50vh;
+    overflow-y: hidden;
+  }
+
+  .profileContainer {
+    top: 50px;
+  }
+
+  .profilePic {
+    max-width: 300px;
+    max-height: 250px;
+  }
+
+  .name {
+    font-size: 40px;
+    bottom: 195px;
+    left: 60px;
+  }
+
+  .titles {
+    font-size: 16px;
+    bottom: 45px;
+  }
+
+  .logoContainer {
+    top: 30px;
+  }
+
+  .logo {
+    max-width: 35px;
+    max-height: 25px;
+  }
+
+}

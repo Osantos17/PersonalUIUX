@@ -1,0 +1,382 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Thin';
+  src: local('Lato Thin'), local('Lato-Thin'), url(/Lato/Lato-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: local('Lato Regular'), local('Lato-Regular'), url(/Lato/Lato-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: local('Lato Light'), local('Lato-Light'), url(/Lato/Lato-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: local('Lato Black'), local('Lato-Black'), url(/Lato/Lato-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: local('Lato Bold'), local('Lato-Bold'), url(/Lato/Lato-Bold.ttf) format('truetype');
+}
+
+
+.homeBackground {
+  background-color: rgb(20, 27, 18);
+  padding: 10px 0px;
+}
+
+.backgroundContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.leftBackground {
+  background-color: rgb(42, 55, 38);
+  width: 35%;
+  min-height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.rightBackground {
+  background-color: rgb(96, 115, 96);
+  width: 65%;
+  position: relative;
+}
+
+
+.selected {
+  font-family: 'Lato-Regular', sans-serif;
+  background-color: rgba(0, 0, 0, 0.21);
+}
+
+.indexHeader {
+  margin: 0px 5px;
+}
+
+.index {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+
+.homeLine {
+  width: 100%;
+  border: .05px solid rgba(255, 255, 255, 0.401);
+  margin-bottom: 18px;
+}
+
+.index span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.index span:before,
+.index span:after {
+  content: '[';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: 5px;
+  transition: 0.5s;
+}
+
+.index span:after {
+  content: ']';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  left: 5px;
+  transition: 0.5s;
+}
+
+.detailBody {
+  margin: 20px;
+}
+
+.index:hover span:before,
+.index:hover span:after {
+  opacity: 1;
+}
+
+
+p {
+  font-family: 'Lato-Light', sans-serif;
+  margin: 0px 10px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.index {
+  margin: 10px 0px;
+  color: white;
+  border: none;
+  background-color: none;
+}
+
+h6 {
+  font-size: 14px;
+  color: white;
+  font-family: 'Lato-Black', sans-serif;
+}
+
+.projectName {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.mySites {
+  font-size: 14px;
+  font-family: 'Lato-Light', sans-serif;
+  color: white;
+  margin-left: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.email {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  appearance: none;
+}
+
+.git {
+  max-width: 42px;
+  max-height: 42px;
+  transition: max-width 0.5s, max-height 0.5s;
+}
+
+.git:hover {
+  max-width: 50px;
+  max-height: 50px;
+  transition: 0.5s;
+}
+
+.gmailIcon {
+  max-width: 45px;
+  max-height: 45px;
+  transition: max-width 0.5s, max-height 0.5s;
+}
+
+.gmail {
+  position: relative;
+  bottom: 25px;
+}
+
+.gmailIcon:hover {
+  max-width: 50px;
+  max-height: 50px;
+  opacity: 70%;
+  transition: 0.5s;
+}
+
+.mySitesContainer {
+  position: relative;
+  bottom: 30px;
+}
+
+.connection {
+  margin-left: 30px;
+}
+
+.link {
+  max-width: 40px;
+  max-height: 40px;
+  transition: max-width 0.5s, max-height 0.5s;
+}
+
+.link:hover {
+  max-width: 45px;
+  max-height: 45px;
+  transition: 0.5s;
+}
+
+.myLinks {
+  margin-top: 50px;
+}
+
+.gmail:before {
+  opacity: 0;
+  transition: 0.5s;
+  content: 'click to copy';
+  font-size: 12px;
+  z-index: 1;
+  color: white;
+  position: relative;
+  bottom: 25px;
+  left: 16px;
+}
+
+.gmail:hover:before,
+.gmail:hover:after {
+  opacity: 1;
+}
+
+.copiedAlert {
+  position: absolute;
+  bottom: 80px;
+  left: 342px;
+  text-align: center;
+  background-color: rgb(20, 27, 18);
+  color: white;
+  font-family: 'Lato-Regular', sans-serif;
+  padding: 10px 20px;
+  width: 85px;
+  font-size: 12px;
+  z-index: 1;
+}
+
+/* ------ MOBILE STYLING ---------- */
+
+@media (max-width: 768px) {
+
+  .backgroundContainer {
+    margin: 20px;
+  }
+
+  .leftBackground {
+    min-height: 40vh;
+  }
+
+  .backgroundContainer {
+    flex-direction: column;
+  }
+
+  .rightBackground {
+    width: 100%;
+    order: 2;
+    margin-bottom: 10px;
+  }
+
+  .leftBackground {
+    width: 100%;
+    order: 1;
+  }
+
+  .index:hover span:before,
+  .index:hover span:after,
+  .git:hover,
+  .gmailIcon:hover,
+  .link:hover {
+    opacity: 1;
+    max-width: none;
+    max-height: none;
+    transition: none;
+    content: none;
+  }
+
+  .index span:before,
+  .index span:after {
+    content: none;
+  }
+
+  .index span:after {
+    content: none;
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+  .git,
+  .gmailIcon,
+  .link {
+    max-width: 25px;
+    max-height: 25px;
+    transition: max-width 0.5s, max-height 0.5s;
+  }
+
+  .git:hover,
+  .gmailIcon:hover,
+  .link:hover {
+    max-width: 25px;
+    max-height: 25px;
+    transition: 0.5s;
+  }
+
+  .git,
+  .gmailIcon,
+  .link {
+    opacity: 1;
+    max-width: none;
+    max-height: none;
+  }
+
+  .gmailIcon:hover {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .gmail:before {
+    content: none;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .index {
+    font-size: 12px;
+  }
+
+  .myLinks {
+    margin-bottom: 30px;
+  }
+
+  .gmailIcon {
+    margin-bottom: -50px;
+  }
+
+  .mySites {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+
+  .git {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .gmail:before {
+    font-size: 10px;
+  }
+
+  .gmailIcon {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .link {
+    max-width: 25px;
+    max-height: 25px;
+  }
+
+  .copiedAlert {
+    left: 54%;
+    bottom: 40%;
+  }
+}

@@ -1,0 +1,64 @@
+.interestsContainer {
+  margin-top: 50px;
+}
+
+.containerSoutline {
+  margin-bottom: 20px;
+}
+
+.containerHarborView {
+  margin-bottom: 20px;
+}
+
+
+.images {
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin: 0 10px;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+.imgCategory {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 16px;
+  color: white;
+  letter-spacing: -2px;
+}
+
+@media (max-width: 768px) {
+
+  .interestsContainer {
+    margin-top: 40px;
+    overflow-y: hidden;
+  }
+
+  .images {
+    max-width: 250px;
+    max-height: 150px;
+  }
+
+  .imgCategory {
+    font-size: 12px;
+  }
+
+  .containerSoutline {
+    margin-bottom: -20px;
+  }
+
+  .containerHarborView {
+    margin-bottom: -20px;
+  }
+
+  .containerMT2 {
+    margin-bottom: -20px;
+  }
+
+}
