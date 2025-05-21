@@ -77,7 +77,7 @@ export function Home () {
               <div className='myAboutMe'>
                 <h6>ABOUT ME</h6>
                 <p>
-                  My journey began in Architecture, where I was captivated by the creativity of transforming ideas into built form. With a passion for drawing and design, I found joy in sketching and bringing concepts to life—both on paper and through digital tools.
+                  My journey began in Architecture, where I was captivated by the creativity of transforming ideas into built form. With a passion for drawing and design, I found joy in sketching and bringing concepts to life, both on paper and through digital tools.
 
                   <br /><br />
 
@@ -100,13 +100,17 @@ export function Home () {
                     <a href='https://github.com/Osantos17'><img className="connection git" src="/assets/git.png" alt="GitHub" /></a>
                   </div>
                   <div className="col-3 col-sm-3">
+                    <a href='https://apps.apple.com/us/app/a-frame-surf-forecast/id6741837362'><img className="connection link" src="/assets/AFrame.png" alt="AFrame" /></a>
+                  </div>
+                  <div className="col-3 col-sm-3">
                     <a href='https://linkedin.com/in/orlandosantos17'><img className="connection link" src="/assets/linkedin.png" alt="LinkedIn" /></a>
                   </div>
                   <div className="col-3 col-sm-3">
-                    <span className="gmail" onClick={copyText}><img className ="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
+                    <span className="gmail" onClick={copyText}><img className="connection gmailIcon" src="/assets/gmail.png" alt="Gmail" /></span>
                   </div>
-                </div> 
+                </div>
               </div>
+
               {showCopyMessage && (
                   <div className="copiedAlert">Copied!</div>
                 )} 

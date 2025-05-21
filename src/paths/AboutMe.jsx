@@ -2,7 +2,7 @@ import "./AboutMe.css"
 import styled from "styled-components";
 
 const AboutMeBackground = styled.div`
-  height: 85vh;
+  height: 88vh;
   overflow: hidden;
 
   @media (max-width: 768px) {

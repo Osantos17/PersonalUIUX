@@ -195,7 +195,7 @@ h6 {
 }
 
 .connection {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .link {
@@ -222,8 +222,8 @@ h6 {
   z-index: 1;
   color: white;
   position: relative;
-  bottom: 10px;
-  left: 16px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .gmail:hover:before,
@@ -233,8 +233,8 @@ h6 {
 
 .copiedAlert {
   position: absolute;
-  bottom: 74px;
-  left: 238px;
+  bottom: 72px;
+  left: 325px;
   text-align: center;
   background-color: rgb(20, 27, 18);
   color: white;
@@ -376,7 +376,7 @@ h6 {
   }
 
   .copiedAlert {
-    left: 54%;
+    left: 72%;
     bottom: 40%;
   }
 }
