@@ -61,7 +61,7 @@ export function Experience () {
               </div>
             </div>
             <div className="drafter row">
-              <div className="bodyHeaader2 col-auto me-auto">
+              <div className="bodyHeader2 col-auto me-auto">
                 FOUNDER & DEVELOPER
               </div> 
             </div>  
@@ -86,7 +86,7 @@ export function Experience () {
               </div>
             </div>
             <div className="drafter row">
-              <div className="bodyHeaader2 col-auto me-auto">
+              <div className="bodyHeader2 col-auto me-auto">
                 BIM SPECIALIST
               </div> 
             </div>  
@@ -111,7 +111,7 @@ export function Experience () {
               </div>
             </div>
             <div className="drafter row">
-              <div className="bodyHeaader2 col-auto me-auto">
+              <div className="bodyHeader2 col-auto me-auto">
                 LEAD DRAFTER | BIM COORDINATOR
               </div> 
               <div className="dates col-auto">
@@ -129,7 +129,7 @@ export function Experience () {
                 - Managed BIM 360 worksharing and supported technical troubleshooting across offices< br />
               </div>
               <div className="designer row">   
-                <div className="bodyHeaader2 col-auto me-auto">
+                <div className="bodyHeader2 col-auto me-auto">
                   DESIGNER
                 </div> 
                 <div className="dates col-auto">

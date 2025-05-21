@@ -137,6 +137,10 @@ h6 {
   font-family: 'Lato-Black', sans-serif;
 }
 
+.AFrameTitle{
+  font-family: 'Lato-Bold', sans-serif;
+}
+
 .projectName {
   text-decoration: underline;
   text-underline-offset: 4px;

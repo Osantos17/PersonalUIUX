@@ -6,7 +6,7 @@ const AboutMeBackground = styled.div`
   overflow: hidden;
 
   @media (max-width: 768px) {
-    height: 45vh;  
+    height: 48vh;  
   }
 `;
 

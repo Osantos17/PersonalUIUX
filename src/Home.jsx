@@ -81,11 +81,11 @@ export function Home () {
 
                   <br /><br />
 
-                  As an Architectural Designer, I collaborated closely with teams throughout the building design process. I contributed to renderings and design packages for planning departments, helping to clearly and effectively communicate design intent. During this time, I developed a strong interest in the technological side of design. I became highly proficient in Autodesk Revit, mastering its capabilities and exploring how automation could streamline architectural workflows.
+                  As an Architectural Designer, drove collaboration across design teams throughout the building design process. I contributed to renderings and design packages for planning departments, helping to clearly and effectively communicate design intent. During this time, I developed a strong interest in the technological side of design. I became highly proficient in Autodesk Revit, mastering its capabilities and exploring how automation could streamline architectural workflows.
 
                   <br /><br />
 
-                  Driven by a passion project, I enrolled at Actualize, where I discovered that my love for design translated seamlessly into the digital space. Combining my new technical skills with my lifelong love of surfing, I created A-Frame, a user-friendly surf forecast app.
+                  Driven by a passion project, I enrolled at Actualize Coding Bootcamp, where I discovered that my love for design translated seamlessly into the digital space. Combining my new technical skills with my lifelong love of surfing, I created A-Frame, a user-friendly surf forecast app.
 
                   <br /><br />
 
@@ -120,12 +120,12 @@ export function Home () {
               </div>)}
               {clickControl.projects && (
               <div className="myapps">
-                <h6>A-FRAME</h6>
-                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based off of feedback I am currently adding a favorites page and a new swell and wind condition for greater forecast accuracy. With plans to expand to Australia I have also added a conversion from imperial to metric units.
+                <h6 className='AFrameTitle'>A-FRAME</h6>
+                <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based on user feedback, I’m have developed a Favorites page and incorporated additional swell and wind conditions to improve forecast accuracy. In preparation for expanding to Australia, I’ve also implemented unit conversion from imperial to metric.
                 <br /><br />
                 FORECAST 
                 <br />
-                This layout is what originally inspired me to create and publish the app. By aligning the surf data and rating vertically to the tide graph , users can quickly absorb all the essentials without needing to scroll. The interface provides a full 7-day forecast and enables effortless swiping between nearby surf, making it easy to compare conditions across nearby locations. The result is a streamlined, intuitive experience that keeps everything surfers need in one clean, connected view.
+                The Forecast layout is what originally inspired me to create and publish the app. By aligning the surf data and rating vertically to the tide graph , users can quickly absorb all the essentials without needing to scroll. The interface provides a full 7-day forecast and enables effortless swiping between nearby surf, making it easy to compare conditions across nearby locations. The result is a streamlined, intuitive experience that keeps everything surfers need in one clean, connected view.
                 <br /><br />
                 MAP
                 <br />
@@ -140,12 +140,15 @@ export function Home () {
               <div className='myExperience'>
                 <h6>EXPERIENCE</h6>
                 <p>
-                Leading everything from the logo to the interface taught me how closely designers and developers need to work together. Turning complex surf data into simple visuals showed me how powerful clear, intuitive design can be. Building interactive charts and a mobile-first layout helped me get a real feel for responsive UI and how people use data on their phones.
-                <br /><br />
-                Building custom Revit plugins gave me hands-on experience designing with real users in mind. I worked closely with testers to figure out which tools were actually helpful and how to lay them out in a way that made sense. I also worked with our IT team during a systems update to get everything implemented. I had to guide them through where files needed to go and how to set things up so the tools would work properly in our workflows.
-                <br /><br />
-                Working as a designer gave me a strong foundation in visual communication and cross-team collaboration. I spent a lot of time creating detailed design layouts and presentation packages that translated complex building ideas into something clear and easy to understand. Overseeing renderings and sketches taught me how to guide visual direction and maintain consistency across a project.
+                  Translating complex surf data into clear visuals reinforced the value of intuitive design, while building interactive graphs in a mobile-first layout gave me experience working with responsive UI and how users engage with data on their phones.
 
+                  <br /><br />
+
+                  Developing custom Revit plugins pushed me to design with real users in mind. I worked closely with testers to identify which tools were genuinely useful and how to organize them in a way that felt logical. I also partnered with our IT team during a major system update, walking them through file setups and integration steps to ensure everything functioned smoothly within Revit.
+
+                  <br /><br />
+
+                  My background in design gave me a strong foundation in visual communication. I spent countless hours crafting detailed layouts and presentation packages that made complex architectural ideas clear and presentable. Overseeing renderings and sketches also taught me how to guide visual direction and maintain consistency across every phase of a project.
                 </p>
                 
               </div>)}

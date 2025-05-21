@@ -36,7 +36,7 @@
   font-family: "Lato-thin";
 }
 
-.bodyHeaader2 {
+.bodyHeader2 {
   font-family: "Lato-light";
   margin-left: 10px;
   font-size: 14px;
@@ -72,6 +72,10 @@
   }
 
   .bodyHeaader {
+    font-size: 12px;
+  }
+
+  .bodyHeader2 {
     font-size: 12px;
   }
 
