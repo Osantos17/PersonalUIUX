@@ -75,13 +75,13 @@ export function Home () {
             <div className="detailBody">
               {clickControl.aboutMe && (
               <div className='myAboutMe'>
-                <h6>ABOUT ME</h6>
+                <h6 className='HeaderTitle'>ABOUT ME</h6>
                 <p>
                   My journey began in Architecture, where I was captivated by the creativity of transforming ideas into built form. With a passion for drawing and design, I found joy in sketching and bringing concepts to life, both on paper and through digital tools.
 
                   <br /><br />
 
-                  As an Architectural Designer, drove collaboration across design teams throughout the building design process. I contributed to renderings and design packages for planning departments, helping to clearly and effectively communicate design intent. During this time, I developed a strong interest in the technological side of design. I became highly proficient in Autodesk Revit, mastering its capabilities and exploring how automation could streamline architectural workflows.
+                  As an Architectural Designer, I drove collaboration across design teams throughout the building design process. I contributed to renderings and design packages for planning departments, helping to clearly and effectively communicate design intent. During this time, I developed a strong interest in the technological side of design. I became highly proficient in Autodesk Revit, mastering its capabilities and exploring how automation could streamline architectural workflows.
 
                   <br /><br />
 
@@ -120,7 +120,7 @@ export function Home () {
               </div>)}
               {clickControl.projects && (
               <div className="myapps">
-                <h6 className='AFrameTitle'>A-FRAME</h6>
+                <h6 className='HeaderTitle'>A-FRAME</h6>
                 <p>A-Frame Surf Forecast is my passion project, now live on iOS and soon to be out on android as well. Developed using TypeScript, Python, React Native, Expo Go, and Tailwind, the app was born from my love of surfing and a desire to create a more user-friendly forecasting tool for the surf community. Based on user feedback, I’m have developed a Favorites page and incorporated additional swell and wind conditions to improve forecast accuracy. In preparation for expanding to Australia, I’ve also implemented unit conversion from imperial to metric.
                 <br /><br />
                 FORECAST 
@@ -138,7 +138,7 @@ export function Home () {
               </div> )}
               {clickControl.experience && (
               <div className='myExperience'>
-                <h6>EXPERIENCE</h6>
+                <h6 className='HeaderTitle'>EXPERIENCE</h6>
                 <p>
                   Translating complex surf data into clear visuals reinforced the value of intuitive design, while building interactive graphs in a mobile-first layout gave me experience working with responsive UI and how users engage with data on their phones.
 
@@ -154,15 +154,15 @@ export function Home () {
               </div>)}
               {clickControl.interests && (
               <div className="myinterests">
-                <h6 className="projectName">SOUTHLINE</h6>
+                <h6 className='HeaderTitle'>SOUTHLINE</h6>
                 <p> 
                   Having six 6-7 Story Office/Tech/Life Science buildings, 3 garages, and an amenities building. Phase 1 only consisted of two buildings, amenities, and a parking garage. While coordinating phase 1, we still needed to consider the future phases. For this project, I set up project and site coordinates, the modeling approach for the office buildings, loading/maintaining all families, and many other Revit duties. Throughout the lifespan of this project, I would spend most of my time in BIM 360 coordinating uploads and consumption, folder structure, and permissions.
                 </p>
-                <h6 className="projectName">HARBOR VIEW</h6>
+                <h6 className='HeaderTitle'>HARBOR VIEW</h6>
                 <p> 
                   This site contains three 6-7 story buildings, a garage, and an amenities building. I took on the usual BIM tasks of setting up the site coordinates and coordinating that with consultants, BIM 360 set up, and selecting teams for each structure. The design of these buildings had a lot of curvature compared to typical buildings, so a lot of my time for this campus was spent ensuring accuracy and assisting the teams. A highlight of mine is creating an accurate 3D exterior pattern which consisted of 4 patterns, 3 colors on a curved surface; I managed to achieve this with a railing. 
                 </p>
-                <h6 className="projectName">WOODWORKING</h6>
+                <h6 className='HeaderTitle'>WOODWORKING</h6>
                 <p> 
                 What brings me the greatest joy in woodworking is creating pieces that are both visually pleasing and highly functional. Every detail must be designed perfectly because once the first cut is made, there’s no turning back. Crafting my son’s crib from a walnut slab was by far my proudest—and most challenging—project, but I truly enjoy every build I take on. Some projects focus more on function than elaborate design, yet the careful planning and forethought required before making any cut remain the same for every piece.
                 </p>
