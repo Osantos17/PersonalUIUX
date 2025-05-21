@@ -31,15 +31,16 @@ export function Experience () {
           <div className="horizontalLine"></div>
           <div className = "educationBody">
             <div className="bootcamp row">
-              <div className="bodyHeaader col-auto me-auto">ACTUALIZE CODING BOOTCAMP | CERTIFICATE IN FULL STACK WEB DEVELOPMENT</div>
+              <div className="bodyHeaader col-auto me-auto"><strong>ACTUALIZE CODING BOOTCAMP | CERTIFICATE IN FULL STACK WEB DEVELOPMENT</strong></div>
               <div className="dates col-auto">Jul 2023 - Oct 2023</div>
             </div>
             <div className="details">
             A four-month full-stack web development bootcamp. Core technologies included Javascript, Ruby, Rails, and React.js. Special emphasis on API-driven development, version control with Git, professional tooling, team collaboration, and continual learning.
             </div>
             <div className="row">
-              <div className="bodyHeaader col-auto me-auto">
+              <div className="bodyHeaader col-auto me-auto"><strong>
                 UNIVERSITY OF SAN FRANCISCO | BACHELOR OF ARTS IN ARCHITECTURE AND COMMUNITY DESIGN
+                </strong>
               </div>
               <div className="dates col-auto">
                 2014
@@ -54,7 +55,9 @@ export function Experience () {
             <div className="row">
             <div className="desEmployment row ">
                 <div className="bodyHeaader col-auto me-auto">
+                  <strong>
                   A-FRAME: SURF FORECAST
+                  </strong>
                 </div>
               <div className="dates col-auto">
                 Feb 2025 - Current
@@ -79,7 +82,9 @@ export function Experience () {
             </div>
               <div className="desEmployment row ">
                 <div className="bodyHeaader col-auto me-auto">
+                  <strong>
                   BDE ARCHITECTS
+                  </strong>
                 </div>
               <div className="dates col-auto">
                 April 2024 - Current
@@ -104,7 +109,9 @@ export function Experience () {
           </div>
             <div className="desEmployment row ">
               <div className="bodyHeaader col-auto me-auto">
+                <strong>
                 DES ARCHITECTS + ENGINEERS
+                </strong>
               </div>
               <div className="dates col-auto">
                 Jan 2017 - Jun 2023
